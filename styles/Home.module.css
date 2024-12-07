@@ -1,0 +1,60 @@
+.mainn {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  min-height: 100vh;
+  background-color:#000000;
+  background-image:
+    radial-gradient(at 0% 0%, rgb(56, 42, 122) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(86, 39, 114) 0, transparent 50%);
+}
+
+
+.bg-img { 
+  background-image: url(https://lh3.googleusercontent.com/dosriTbpzi_2QdxYZN8NOvLlH1aVIRjLF0cSJTubboUfFWJWJyj7RxRtPU7Y7_pQEMZu-mhz-CVJPVY2rnR1izg3dnsFladKRF2tJsw=w600) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
+
+
+.main h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(65, 67, 196);
+  align-items: center;
+}
+
+.lotteryinfo a {
+  font-size: 0.9em;
+}
+
+.lotteryinfo ul li{
+  list-style-type: none;
+}
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
